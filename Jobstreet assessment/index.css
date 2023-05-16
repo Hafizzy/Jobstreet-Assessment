@@ -1,0 +1,140 @@
+.index-container{
+  display:block;
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  color: #333;
+  font-family: 'Noto Sans',sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  background: #f8f8f8;
+
+}
+
+.index-menu{
+  display: block;
+  width: 980px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2% 0 1%;
+
+}
+
+.index-jobstreet-logo{
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 30px auto 20px;
+}
+
+.jobstreet-logo{
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.index-menu{
+  display: inline-block;
+  width: 24%;
+  height: auto;
+  text-align: left;
+  margin: 3% 0 0;
+  vertical-align: top;
+}
+
+.index-header{
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0704e1;
+  margin-bottom: 20px;
+}
+
+.index-menu-link{
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  color: #444;
+}
+
+.index-menu-box{
+  display: block;
+  margin: 10px 0;
+}
+
+.index-icon{
+  width: 12px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.index-text:link {
+  font-family: 'Noto Sans', sans-serif;
+  color: #666;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.index-text:visited{
+  color: #666;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.index-text:hover{
+  color: #0704e1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.index-bottom-container{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 3% auto 0;
+}
+
+.index-bottom{
+  display: block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.index-copyright{
+  display: inline-block;
+  width: 75%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.bullet{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.copyright:link {
+  font-family: 'Noto Sans', sans-serif;
+  color: #444;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.copyright:visited{
+  color: #444;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.copyright:hover{
+  color: #0704e1;
+  text-decoration: none;
+  background-color: transparent;
+}

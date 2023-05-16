@@ -1,0 +1,117 @@
+.index-job-box{
+  display: block;
+  width: 100%;
+  background-color: white;
+  padding: 54px;
+}
+
+.index-job{
+  display: block;
+  width: 980px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.job-box{
+  display: block;
+  width: 100%;
+  line-height: 36px;
+  font-size: 27px;
+  font-weight: 500;
+  color: #515357;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+
+}
+
+.row {
+  margin: 0 -5px;
+  align-items: center;
+}
+
+.row::after{
+  content: "";
+  display:  table;
+  clear: both;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.region{
+  display: block;
+  line-height: 20px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #888;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.job.title{
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.job-title:link {
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.job-title:visited{
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.job-title:hover{
+  font-family: 'Noto Sans', sans-serif;
+  color: gray;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.salary{
+  display: block;
+  line-height: 28px;
+  font-size: 13px;
+  color: #0704e1;
+  overflow: hidden;
+}
+
+.company{
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  color: #888;
+  overflow: hidden;
+}

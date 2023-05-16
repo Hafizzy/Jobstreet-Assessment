@@ -1,0 +1,74 @@
+.search-variety{
+  display: block;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.search-variety-container{
+  display: block;
+  width: 980px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header-search-title{
+  display: block;
+  width: 100%;
+  line-height: 36px;
+  font-size: 27px;
+  font-weight: 300;
+  color: #515357;
+  text-align: center;
+  margin: 0 auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.categories-formbox{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0 auto;
+}
+
+.variety-container{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.popular-categories{
+  display: inline-block;
+  width: 15%;
+  line-height: 30px;
+  color: #333;
+  text-align: left;
+  vertical-align: top;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.popular-list{
+  display: inline-block;
+  width: 82%;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: left;
+  vertical-align: top;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.categories{
+  text-decoration: none;
+  outline: none;
+  color: #0704e1;
+  font-family: 'Noto Sans', sans-serif;
+  margin-right: 20px;
+
+}
+
+.view-search{
+  display: inline-block;
+  line-height: 30px;
+  font-size: 13px;
+  color: #333;
+  vertical-align: top;
+}

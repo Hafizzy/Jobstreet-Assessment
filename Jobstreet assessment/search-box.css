@@ -1,0 +1,219 @@
+.search-box-container{
+  width: 100%;
+  height: 450px;
+  display : flex;
+  flex-direction: row;
+  margin: 0;
+  font-family: Noto Sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title{
+  display: block;
+  width: 100%;
+  line-height: 3rem;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+
+.left-search-box{
+  display: inline-flex;
+  width: 25%;
+  height: 100%;
+  background-image: url("./media/image_left.jpg") ;
+  vertical-align: top;
+  float: left;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+
+
+.middle-search-box{
+  background-color: #1f1de4;
+  color: white;
+  display: inline-flex;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+
+}
+
+
+
+.middle-search{
+  display: block;
+  width: 100%;
+  margin: 5%;
+}
+
+.right-search-box{
+  display: inline-flex;
+  width: 25%;
+  height: 100%;
+  background-image: url("./media/image_right.jpg") ;
+  vertical-align: top;
+  float: right;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+
+}
+
+.search-box{
+  display: block;
+  width: 100%;
+  height: auto;
+  position:relative;
+  margin: 0 auto;
+}
+
+.search-input-container{
+  display: block;
+  width: 95%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2.5%;
+}
+
+.search-bar-divider{
+  display: inline-block;
+  height: 40px;
+  border-left: 1px solid #ddd;
+  margin: 0 1.5%;
+  vertical-align: middle;
+}
+
+
+.search-bar-text{
+  width: 38%;
+  height: 55px;
+  line-height: 55px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  border: none;
+  display: inline-block;
+  padding: 0 1.5%;
+  vertical-align: middle;
+  outline: none;
+
+}
+
+
+
+
+
+.search-bar-location{
+  width: 38%;
+  height: 55px;
+  line-height: 55px;
+  font-size: 15px;
+  font-weight:600;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  border: none;
+  display: inline-block;
+  padding: 0 1.5%;
+  vertical-align: middle;
+  outline: none;
+
+}
+
+
+
+
+.submit-button{
+  display: inline-block;
+  width: 13%;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  outline: none;
+  background: url("./media/icon_searchglass_white.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #1f1de4;
+  cursor: pointer;
+  
+}
+
+.location-icon{
+  display: inline-block;
+  width: 5%;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px 1.5% 5px -1.5%;
+  vertical-align: top;
+  background: url("./media/icon_locationpin.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  cursor: pointer;
+}
+
+
+.user-icon{
+  display: block;
+  width: 80%;
+  line-height: 1 rem;
+  font-size: 0.65 rem;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+  color:white;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.user-icon img{
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5%;
+  vertical-align: middle;
+}
+
+.search-text:link {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  background-color: transparent;
+}
+
+.search-text:visited{
+  color: white;
+  background-color: transparent;
+}
+
+.search-text:hover{
+  color: #888;
+  background-color: transparent;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Jobstore Assessment</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+    </style>
+
+    <link  rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="search-box.css">
+    <link rel="stylesheet" href="Jobs-container.css">
+    <link rel="stylesheet" href="slideshows.css">
+    <link rel="stylesheet" href="popular.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="display size.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <a href=""> 
+          <img class="logo" src="media/jobstore_logo_blue.png" alt="logo">
+        </a>
+ 
+      </div>
+      <div class="header-mid">
+        <div class="header-mid-text">
+          <a class="header-text" href=""> Browse Jobs</a>
+        </div>
+
+        <div class="header-mid-text">
+          <a class="header-text" href=""> Companies </a>
+        </div>
+
+        <div class="header-mid-text">
+          <a class="header-text" href="" target=""> Download App </a>
+        </div>
+
+      </div>
+      <div class="header-right">
+        <div class="header-right-text">
+          <a class="header-text" href="">Sign In</a>
+        </div>
+
+        <div class="header-right-text">
+          <a class="header-text" href="">Sign Up</a>
+        </div>
+
+        <button class="employer-button"> EMPLOYERS</button>
+      </div>
+    </div>
+
+    <div class="search-box-container">
+      <div class="left-search-box"></div>
+
+      <div class="middle-search-box">
+        <div class="middle-search">
+          <h1 class="header-title"> 11,407 jobs available in 
+            <a class="search-text" href=""> Malaysia </a>
+          </h1>
+          <div class="search-box">
+            <div class="search-input-container">
+
+              <form action="">
+
+                <input class="search-bar-text" type="text" placeholder=
+                "Search by job title or keyword ">
+                
+                <span class="search-bar-divider"></span>
+  
+                <input class="search-bar-location" type="text" placeholder=
+                "Location or city ">
+
+                <div class="location-icon"></div>
+  
+                <input class="submit-button" type="button">
+  
+              </form>
+            </div>
+
+          </div>
+          
+          <div class="user-icon">
+            <img src="media/icon_user_in.png">
+
+            <a class="search-text" href=""> Sign in </a>
+            <span>or</span>
+            <a class="search-text" href=""> Sign up </a>
+            <span> to see your saved jobs on all your devices </span>
+
+          </div>
+
+        </div>
+        
+
+      </div>
+      <div class="right-search-box"></div>
+    </div>
+
+
+    <div class="index-job-box">
+      <div class="index-job">
+        <div class="job-box">
+          Trending Jobs
+        </div>
+        <div class="job-box-card">
+          <div class="slideshow-container">
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <p class="region">kapar</p>
+                  <a class="job-title" href="">
+                    Engineer - Design / Manufacturing
+                  </a>
+                  <p class="salary">MYR 33,600 - MYR 50,400 (Monthly)</p>
+                  <p class="company">WRIGHTBUS MALAYSIA SDN BHD</p>
+                </div>
+              </div>
+  
+              <div class="column">
+                <div class="card">
+                  <p class="region">PETALING JAYA</p>
+                  <a class="job-title" href="">
+                    Company Secretary
+                  </a>
+                  <p class="salary">MYR 15,00 - MYR 25,00 (Monthly)</p>
+                  <p class="company">M K LAND HOLDINGS BERHAD </p>
+                </div>
+              </div>
+  
+              <div class="column">
+                <div class="card">
+                  <p class="region">MALAYSIA</p>
+                  <a class="job-title" href="">
+                    Finance Manager (Malaysian Citizen Only)
+                  </a>
+                  <p class="salary">MYR 14,00 - MYR 17,00 (Monthly)</p>
+                  <p class="company">IN & EX HOLDINGS SDN. BHD.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="badge">
+        <span class="dot" onclick="currentDiv(1)"></span>
+        <span class="dot" onclick="currentDiv(2)"></span>
+        <span class="dot" onclick="currentDiv(3)"></span>
+        <span class="dot" onclick="currentDiv(4)"></span>
+        <span class="dot" onclick="currentDiv(5)"></span>
+
+      </div>
+
+      <div class="trending-job">
+        <a class="view-all" href=""></a>
+      </div>
+
+    </div>
+
+    <div class="separator-icon"></div>
+
+    <div class="search-variety">
+      <div class="search-variety-container">
+        <div class="header-search-title">Popular Searches</div>
+
+        <div class="categories-formbox">
+
+          <div class="variety-container">
+
+            <div class="popular-categories"> Popular categories</div>
+
+            <div class="popular-list">
+              <a class="categories" href=""> Sales / Marketing jobs</a>
+              <a class="categories" href=""> Accounting / Auditing jobs</a>
+              <a class="categories" href=""> Administrative / Clerical jobs</a>
+              <a class="categories" href=""> Engineering jobs</a>
+              <a class="categories" href=""> Information Technology Jobs</a>
+              <a class="categories" href=""> Construction / Property jobs</a>
+              <a class="categories" href=""> Human Resource jobs</a>
+              <a class="categories" href=""> Customer Service jobs</a>
+              <a class="view-search" href=""> view all categories</a>
+            </div>
+
+            <div class="popular-categories"> Popular Locations</div>
+
+  
+            <div class="popular-list">
+              <a class="categories" href=""> Kuala Lumpur</a>
+              <a class="categories" href=""> Petaling Jaya</a>
+              <a class="categories" href=""> Shah Alam</a>
+              <a class="categories" href=""> Puchong</a>
+              <a class="categories" href=""> Johor Bahru</a>
+              <a class="categories" href=""> Subang Jaya</a>
+              <a class="categories" href=""> Klang</a>
+              <a class="categories" href=""> Seri Kembangan</a>
+              <a class="categories" href=""> George Town</a>
+              <a class="categories" href=""> Bayan Lepas</a>
+              <a class="view-search" href=""> view all categories</a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="index-container">
+      <div class="index-box">
+        <div class="index-jobstreet-logo">
+          <img src="media/jobstore_logo_blue.png" class="jobstreet-logo">
+        </div>
+
+        <div class="index-menu">
+          <div class="index-header"> COMPANY</div>
+          <div class="index-menu-link">
+  
+            <div class="index-menu-box">
+              <a class="index-text" href=""> About Us</a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Contact Support</a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Careers @ Jobstore </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Blog </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Partner Sites</a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Fulfillment Policy </a>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="index-menu">
+          <div class="index-header"> JOBSEEKER </div>
+          <div class="index-menu-link">
+  
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Sign Up </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Sign In </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Check Application </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Jobseeker FAQs </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Browse Jobs </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Browse By Industry </a>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="index-menu">
+          <div class="index-header"> EMPLOYERS </div>
+          <div class="index-menu-link">
+  
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Create Account </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Post Jobs </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Product & Price </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Customer Support </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Contact Sales </a>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="index-menu">
+          <div class="index-header"> CONNECT WITH US </div>
+          <div class="index-menu-link">
+  
+            <div class="index-menu-box">
+             <img class="index-icon" src="media/icon_fb_grey.png"> <a class="index-text" href=""> Facebook </a>
+            </div>
+            <div class="index-menu-box">
+              <img class="index-icon" src="media/icon_twt_grey.png"> <a class="index-text" href=""> Twitter </a>
+            </div>
+            <div class="index-menu-box">
+              <img class="index-icon" src="media/icon_in_grey.png"> <a class="index-text" href=""> Linkedin </a>
+            </div>
+            <div class="index-menu-box">
+              <img class="index-icon" src="media/icon_insta_grey.png"> <a class="index-text" href=""> Instagram </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Call us at +603 2716 5199 </a>
+            </div>
+            <div class="index-menu-box">
+              <a class="index-text" href=""> Send us a message </a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="index-bottom-container">
+      <div class="index-bottom">
+        <div class="index-copyright">© 2023 Jobstore
+          <div class="bullet"> • </div>
+          <a class="copyright" href=""> Terms of Service </a>
+          <div class="bullet"> • </div>
+          <a class="copyright" href=""> Privacy Policy </a>
+          <div class="bullet"> • </div>
+          <div class="bullet"> All Right Reserved </div>
+
+      </div>
+    </div>
+    
+  </body>
+</html>

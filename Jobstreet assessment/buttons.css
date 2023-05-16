@@ -1,0 +1,30 @@
+.employer-button{
+  width: 150px;
+  height: 40px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #0704e1;
+  color: white;
+  border: 2px solid #0704e1;
+  border-radius: 20px;
+  border-style: solid;
+  float: right;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+  margin-right: 20px;
+}
+
+.employer-button:hover{
+  background-color:white;
+  color: #0704e1;
+}
+
+.submit{
+  background-color: #0704e1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  height: 55px;
+  width:13% ;
+}
